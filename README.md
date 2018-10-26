@@ -1,2 +1,3 @@
-# foodhunter
-FoodHunter
+# FoodHunter
+
+Food discovery social media.
