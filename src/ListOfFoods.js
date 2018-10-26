@@ -1,5 +1,7 @@
 import React, { Component } from "react"
 
+import "./ListOfFoods.css"
+
 const foods = [
   "Martabak",
   "Somay & Batagor",

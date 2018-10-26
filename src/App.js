@@ -1,14 +1,13 @@
 import React, { Component } from "react"
 
+import Header from "./Header.js"
 import ListOfFoods from "./ListOfFoods.js"
 
 class App extends Component {
   render() {
     return (
       <div>
-        <header>
-          <h1>FoodHunter</h1>
-        </header>
+        <Header />
         <section>
           <ListOfFoods />
         </section>
