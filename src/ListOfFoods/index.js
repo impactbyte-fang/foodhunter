@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-import "./ListOfFoods.css"
+import "./index.css"
 
 const foods = [
   "Martabak",
@@ -15,11 +15,18 @@ const foods = [
 class ListOfFoods extends Component {
   render() {
     return (
-      <ul>
+      <table>
+        <th>
+          <td>Foods:</td>
+        </th>
         {foods.map(food => {
-          return <li>{food}</li>
+          return (
+            <tr>
+              <td>{food}</td>
+            </tr>
+          )
         })}
-      </ul>
+      </table>
     )
   }
 }

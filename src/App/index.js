@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 
-import Header from "./Header.js"
-import ListOfFoods from "./ListOfFoods.js"
+import Header from "../Header"
+import ListOfFoods from "../ListOfFoods"
 
 class App extends Component {
   render() {
